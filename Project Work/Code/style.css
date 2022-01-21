@@ -487,7 +487,14 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
-
+#head
+{
+    text-align: center;
+    width: 100%;
+    color: red;
+    font-weight: bold;
+    background: white;
+}
 @media only screen and (max-width: 600px){
     .cart-info p{
         display: none;
