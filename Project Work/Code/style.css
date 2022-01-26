@@ -73,7 +73,7 @@ nav ul li{
 }
 .btn{
     display: inline-block;
-    background: #ff523b;
+    background: #24a154;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -97,16 +97,33 @@ nav ul li{
 }
 
 .col-3{
-    flex-basis: 30%;
+    flex-basis: 20%;
     min-width: 250px;
     margin-bottom: 30px;
 }
 .col-3 img{
     width: 100%;
 }
+.col-4{
+    flex-basis: 20%;
+    min-width: 350px;
+    margin-bottom: 70px;
+}
+.col-4 img{
+    width: 70%;
+}
+
+
 /*-------featured product--------------*/
 
 .title{
+    text-align: center;
+    margin: 0px auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title1{
     text-align: center;
     margin: 0px auto 80px;
     position: relative;
@@ -582,15 +599,15 @@ form a{
 
 
 
+.col-lg-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 
-
-
-
-
-
-
-
-
+.form {
+    display: block;
+    margin-top: 0em;
+}
 
 
 
